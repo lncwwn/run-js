@@ -63,7 +63,7 @@ function save(code) {
 };
 
 function saveTemporary(code) {
-    if (code)
+    if (undefined !== code)
         localStorage.setItem('jjj_temp_code', code);
 };
 

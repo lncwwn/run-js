@@ -10,16 +10,35 @@ body {
     padding: 0;
     background-color: #fff;
     color: #555;
-    font-size: 1em;
+    font-size: 12px;
     font-family: 'Microsoft YaHei', Tahoma, Helvetica, Arial, sans-serif;
 }
 
+.text-black {
+    color: #666;
+}
+
+.text-green {
+    color: #288828;
+}
+
+.text-gray {
+    color: #999;
+}
+
 .main-wrapper {
-    width: 600px;
+    width: 680px;
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+}
+
+.menu-wrapper {
+    padding: 5px 15px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 0 3px #ccc;
 }
 
 .editor-wrapper {
@@ -37,5 +56,19 @@ body {
 .preview-wrapper {
     width: 100%;
     min-height: 100px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer {
+    width: 100%;
+    padding: 5px 15px;
+    background-color: #fafafa;
+    //text-align: center;
 }
 
